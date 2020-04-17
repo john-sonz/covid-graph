@@ -1,4 +1,6 @@
-Lib
-Scripts
-pyvenv.cfg
+etc
 Include
+Lib
+pyvenv.cfg
+Scripts
+share
