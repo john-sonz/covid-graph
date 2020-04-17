@@ -9,9 +9,6 @@ if __name__ == "__main__":
         data["day"] = i + 1
         data["active"] = data["confirmed"] - data["recovered"] - data["deaths"]
 
-    # df = px.data.gapminder().query("continent=='Oceania'")
-    # print(df)
-
     wide_df = pandas.DataFrame(cases_list)
     tidy_df = wide_df.melt(
         id_vars="day",
