@@ -4,3 +4,7 @@ Lib
 pyvenv.cfg
 Scripts
 share
+
+__pycache__
+
+.vscode
